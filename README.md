@@ -1,5 +1,15 @@
 # Kulineran Vue
 
+## Project stack
+- HTML5
+- CSS3
+- BootstrapVue
+- Vue.js
+- Vue Router
+- Vue Toast Notification
+- Axios
+- JSON Placeholder
+
 ## Project setup
 ```
 npm install
@@ -7,7 +17,7 @@ npm install
 
 ## Start JSON Server
 ```
-json-server --watch db.json
+json-server --watch data.json
 ```
 
 
