@@ -1,0 +1,150 @@
+{
+  "best-foods": [
+    {
+      "id": 1,
+      "code": "F-01",
+      "name": "Sate Ayam",
+      "price": 15000,
+      "is_ready": true,
+      "img": "sate-ayam.jpg"
+    },
+    {
+      "id": 2,
+      "code": "F-02",
+      "name": "Nasi Goreng Spesial",
+      "price": 25000,
+      "is_ready": true,
+      "img": "nasi-goreng-telor.jpg"
+    },
+    {
+      "id": 3,
+      "code": "F-03",
+      "name": "Nasi Rames Spesial",
+      "price": 12000,
+      "is_ready": true,
+      "img": "nasi-rames.jpg"
+    }
+  ],
+  "foods": [
+    {
+      "id": 1,
+      "code": "F-01",
+      "name": "Sate Ayam",
+      "price": 15000,
+      "is_ready": true,
+      "img": "sate-ayam.jpg"
+    },
+    {
+      "id": 2,
+      "code": "F-02",
+      "name": "Nasi Goreng Spesial",
+      "price": 25000,
+      "is_ready": true,
+      "img": "nasi-goreng-telor.jpg"
+    },
+    {
+      "id": 3,
+      "code": "F-03",
+      "name": "Nasi Rames Spesial",
+      "price": 12000,
+      "is_ready": true,
+      "img": "nasi-rames.jpg"
+    },
+    {
+      "id": 4,
+      "code": "F-04",
+      "name": "Bakso",
+      "price": 10000,
+      "is_ready": false,
+      "img": "bakso.jpg"
+    },
+    {
+      "id": 5,
+      "code": "F-05",
+      "name": "Mie Ayam Bakso",
+      "price": 12000,
+      "is_ready": true,
+      "img": "mie-ayam-bakso.jpg"
+    },
+    {
+      "id": 6,
+      "code": "F-06",
+      "name": "Opor Ayam",
+      "price": 12000,
+      "is_ready": true,
+      "img": "lontong-opor-ayam.jpg"
+    },
+    {
+      "id": 7,
+      "code": "F-07",
+      "name": "Mie Goreng Spesial",
+      "price": 12000,
+      "is_ready": false,
+      "img": "mie-goreng.jpg"
+    },
+    {
+      "id": 8,
+      "code": "F-09",
+      "name": "Kentang Goreng",
+      "price": 10000,
+      "is_ready": true,
+      "img": "kentang-goreng.jpg"
+    }
+  ],
+  "carts": [],
+  "orders": [
+    {
+      "customer": "Dika",
+      "table": "01",
+      "cart": [
+        {
+          "qty": "1",
+          "notes": "Pake Kulit Aja",
+          "food": {
+            "id": 1,
+            "code": "F-01",
+            "name": "Sate Ayam",
+            "price": 15000,
+            "is_ready": true,
+            "img": "sate-ayam.jpg"
+          },
+          "id": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "customer": "Linda",
+      "table": "02",
+      "cart": [
+        {
+          "qty": "2",
+          "notes": "Spesial",
+          "food": {
+            "id": 2,
+            "code": "F-02",
+            "name": "Nasi Goreng Spesial",
+            "price": 25000,
+            "is_ready": true,
+            "img": "nasi-goreng-telor.jpg"
+          },
+          "id": 1
+        },
+        {
+          "qty": "1",
+          "notes": "Pedes",
+          "food": {
+            "id": 8,
+            "code": "F-09",
+            "name": "Kentang Goreng",
+            "price": 10000,
+            "is_ready": true,
+            "img": "kentang-goreng.jpg"
+          },
+          "id": 2
+        }
+      ],
+      "id": 2
+    }
+  ]
+}
