@@ -1,9 +1,15 @@
-# kulineran
+# Kulineran Vue
 
 ## Project setup
 ```
 npm install
 ```
+
+## Start JSON Server
+```
+json-server --watch db.json
+```
+
 
 ### Compiles and hot-reloads for development
 ```
